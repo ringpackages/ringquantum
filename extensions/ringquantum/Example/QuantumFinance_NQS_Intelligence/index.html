@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumAlpha Terminal | Sovereign Intelligence</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Chart.js for Quantum Dynamics Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER: System Vitals -->
+        <header>
+            <div class="logo-section">
+                <h1>QuantumAlpha Terminal</h1>
+            </div>
+            <div class="system-vitals">
+                <div class="vital-item">
+                    <span class="vital-label">Engine Status</span>
+                    <span class="vital-value" id="engine-status">IDLE (Intel HD 5500)</span>
+                </div>
+                <div class="vital-item">
+                    <span class="vital-label">States Explored</span>
+                    <span class="vital-value">2^500 (10^150)</span>
+                </div>
+                <div class="vital-item">
+                    <span class="vital-label">Convergence</span>
+                    <span class="vital-value" id="convergence-rate">99.98%</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- SIDEBAR: Operational Controls -->
+        <aside>
+            <div class="control-group">
+                <label>Investment Strategy</label>
+                <button class="btn-quantum" id="btn-start">Execute Evolution</button>
+            </div>
+            
+            <div class="control-group">
+                <label>Risk Appetite (Temp)</label>
+                <input type="range" min="0.1" max="2.0" step="0.1" value="1.5" style="width: 100%; accent-color: var(--accent-cyan);">
+            </div>
+
+            <div class="control-group">
+                <label>Real-time Telemetry</label>
+                <div class="log-view" id="log-output">
+                    > System ready...<br>
+                    > GPU FP32 Turbo Ready...
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN: Visualization & Results -->
+        <main>
+            <!-- High-Frequency Evolution Chart -->
+            <div class="chart-area">
+                <canvas id="evolutionChart"></canvas>
+            </div>
+
+            <!-- The Trinity Results Cards -->
+            <div class="trinity-view">
+                <!-- Card 1: The Shield -->
+                <div class="portfolio-card shield">
+                    <div class="card-title">Quantum Shield (Low Risk)</div>
+                    <div class="card-score" id="score-1">0.0000</div>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Focus: Stability & Capital Preservation</p>
+                    <div class="card-stats">
+                        <span>Assets: <b id="assets-1">0</b></span>
+                        <span style="color: var(--accent-green);">α: +2.1%</span>
+                    </div>
+                </div>
+
+                <!-- Card 2: The Balance -->
+                <div class="portfolio-card balance">
+                    <div class="card-title">Quantum Balance</div>
+                    <div class="card-score" id="score-2">0.0000</div>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Focus: Growth Adjusted Risk</p>
+                    <div class="card-stats">
+                        <span>Assets: <b id="assets-2">0</b></span>
+                        <span style="color: var(--accent-green);">α: +8.4%</span>
+                    </div>
+                </div>
+
+                <!-- Card 3: The Alpha -->
+                <div class="portfolio-card alpha">
+                    <div class="card-title">Quantum Alpha (Growth)</div>
+                    <div class="card-score" id="score-3">0.0000</div>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Focus: Maximum Opportunistic Yield</p>
+                    <div class="card-stats">
+                        <span>Assets: <b id="assets-3">0</b></span>
+                        <span style="color: var(--accent-green);">α: +15.5%</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripting for UI Dynamics -->
+    <script src="app.js"></script>
+</body>
+</html>
