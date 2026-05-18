@@ -2,22 +2,22 @@ aPackageInfo = [
 	:name = "The ringquantum Package",
 	:description = "Our ringquantum package using the Ring programming language",
 	:folder = "ringquantum",
-	:developer = "",
-	:email = "",
+	:developer = "Azzeddine Remmal",
+	:email = "azzeddine.remmal@gmail.com",
 	:license = "MIT License",
-	:version = "1.0.1",
+	:version = "1.0.2",
 	:ringversion = "1.26",
 	:versions = 	[
 		[
-			:version = "1.0.1",
+			:version = "1.0.2",
 			:branch = "master"
 		]
 	],
 	:libs = 	[
 		[
-			:name = "",
-			:version = "",
-			:providerusername = ""
+			:name = "ringml-using-ringtensor",
+			:version = "1.2.5",
+			:providerusername = "Azzeddine2017"
 		]
 	],
 	:files = 	[
