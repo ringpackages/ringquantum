@@ -1,5 +1,9 @@
 # Technical Report: The Engineering Journey of RingQuantum v5.0
 
+<div align="center">
+  <img src="images/logo.svg" alt="RingQuantum Logo" width="160" height="160" />
+</div>
+
 **Project:** Hybrid Neural-Quantum Simulation Engine  
 **Lead Developer:** Azzeddine Remmal  
 **Architecture:** Statevector | NQS/RBM | Quantum Transformer | TDVP Dynamics  
@@ -56,6 +60,8 @@ To accelerate the 25-qubit simulation, we integrated **OpenCL** with special att
 
 2. **Zero-Copy Memory (`clEnqueueMapBuffer`):** Using `CL_MEM_ALLOC_HOST_PTR`, we enabled the CPU (Ring interpreter) and GPU (OpenCL) to share the same physical RAM. This eliminated all PCIe/DMA transfer overhead:
 
+![Zero-Copy Memory Pipeline](images/zero_copy_pipeline.svg)
+
    ```
    ┌─────────────┐     Shared Physical RAM     ┌──────────────┐
    │  Ring (CPU)  │ ◄══════════════════════════► │  OpenCL (GPU) │
@@ -92,6 +98,8 @@ The quantum wavefunction ψ(s) is parameterized by an RBM:
 **Memory Efficiency:** 500 qubits with 180 hidden neurons requires only ~720KB — compared to the 10¹⁵⁰ complex amplitudes that exact simulation would require.
 
 ### Variational Monte Carlo (VMC)
+
+![VMC Training Pipeline](images/vmc_training_pipeline.svg)
 
 The training loop follows the VMC protocol:
 
@@ -242,6 +250,8 @@ This "simulated annealing" approach allows the system to:
 ## 7. The Hybrid Optimization Pipeline
 
 The complete system integrates all components into a seamless pipeline:
+
+![Hybrid Solver Pipeline](images/hybrid_optimization_pipeline.svg)
 
 ```mermaid
 graph TD

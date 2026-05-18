@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+<defs>
+  <linearGradient id="linearGradient1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0B1329"/><stop offset="100%" stop-color="#010409"/></linearGradient>
+  <filter id="glow1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur"/><feFlood flood-color="#00F2FE"/><feComposite in2="blur" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow2" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="6" dy="6" stdDeviation="10" flood-color="#000000"/></filter>
+  <pattern id="grid1" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="url(#linearGradient1)"/><path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="1"/></pattern>
+  <linearGradient id="linearGradient2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00D2FF"/><stop offset="50%" stop-color="#7928CA"/><stop offset="100%" stop-color="#FF007F"/></linearGradient>
+  <linearGradient id="linearGradient3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00F2FE"/><stop offset="100%" stop-color="#4FACFE"/></linearGradient>
+  <radialGradient id="radialGradient4" cx="250%" cy="250%" r="45%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="25%" stop-color="#00F2FE"/><stop offset="75%" stop-color="#7928CA"/><stop offset="100%" stop-color="#0B1329"/></radialGradient>
+  <linearGradient id="linearGradient5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#EC4899"/></linearGradient>
+</defs>
+  <circle cx="250" cy="250" r="220" fill="url(#linearGradient1)" stroke="#1E293B" stroke-width="3" filter="url(#shadow2)"/>
+  <circle cx="250" cy="250" r="218" fill="url(#grid1)" opacity="0.25"/>
+  <circle cx="250" cy="250" r="210" fill="none" stroke="url(#linearGradient2)" stroke-width="2" opacity="0.70"/>
+  <ellipse cx="250" cy="250" rx="175" ry="55" fill="none" stroke="url(#linearGradient3)" stroke-width="2.50" opacity="0.80" transform="rotate(45,250,250)"/>
+  <ellipse cx="250" cy="250" rx="175" ry="55" fill="none" stroke="url(#linearGradient3)" stroke-width="2.50" opacity="0.80" transform="rotate(135,250,250)"/>
+  <ellipse cx="250" cy="250" rx="175" ry="55" fill="none" stroke="url(#linearGradient3)" stroke-width="2.50" opacity="0.80" transform="rotate(90,250,250)"/>
+  <line x1="126" y1="126" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <line x1="374" y1="126" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <line x1="126" y1="374" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <line x1="374" y1="374" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <line x1="250" y1="75" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <line x1="250" y1="425" x2="250" y2="250" fill="#000000" stroke="#7928CA" stroke-width="1" opacity="0.40"/>
+  <circle cx="126" cy="126" r="6" fill="#00F2FE" filter="url(#glow1)"/>
+  <circle cx="374" cy="126" r="6" fill="#FF007F" filter="url(#glow1)"/>
+  <circle cx="126" cy="374" r="6" fill="#FF007F" filter="url(#glow1)"/>
+  <circle cx="374" cy="374" r="6" fill="#00F2FE" filter="url(#glow1)"/>
+  <circle cx="250" cy="75" r="7" fill="#38BDF8" filter="url(#glow1)"/>
+  <circle cx="250" cy="425" r="7" fill="#A855F7" filter="url(#glow1)"/>
+  <circle cx="250" cy="250" r="50" fill="url(#radialGradient4)" filter="url(#shadow2)"/>
+  <text x="250" y="254" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF" opacity="0.95">Q</text>
+  <text x="250" y="360" font-family="system-ui, 'Segoe UI', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="url(#linearGradient5)">RINGQUANTUM</text>
+  <line x1="180" y1="375" x2="230" y2="375" fill="#000000" stroke="#00F2FE" stroke-width="2"/>
+  <line x1="270" y1="375" x2="320" y2="375" fill="#000000" stroke="#FF007F" stroke-width="2"/>
+  <circle cx="250" cy="375" r="3" fill="#FFFFFF"/>
+</svg>

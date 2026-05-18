@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "",
 	:email = "",
 	:license = "MIT License",
-	:version = "1.0.0",
+	:version = "1.0.1",
 	:ringversion = "1.26",
 	:versions = 	[
 		[
-			:version = "1.0.0",
+			:version = "1.0.1",
 			:branch = "master"
 		]
 	],
@@ -24,7 +24,8 @@ aPackageInfo = [
 		"ARCHITECTURE_DIAGRAM.md",
 		"CHANGELOG.md",
 		"README.md",
-		"ring_quantum_v3_technical_report.md"
+		"ring_quantum_v3_technical_report.md",
+		"generate_diagrams.ring"
 	],
 	:ringfolderfiles = 	[
 		"bin/load/ringquantum.ring",
@@ -32,6 +33,12 @@ aPackageInfo = [
 		"bin/ring_quantum.exp",
 		"bin/ring_quantum.lib",
 		"extensions/ringquantum/ARCHITECTURE_DIAGRAM.md",
+		"extensions/ringquantum/generate_diagrams.ring",
+		"extensions/ringquantum/images/logo.svg",
+		"extensions/ringquantum/images/three_layer_architecture.svg",
+		"extensions/ringquantum/images/zero_copy_pipeline.svg",
+		"extensions/ringquantum/images/vmc_training_pipeline.svg",
+		"extensions/ringquantum/images/hybrid_optimization_pipeline.svg",
 		"extensions/ringquantum/buildclang.sh",
 		"extensions/ringquantum/buildgcc.sh",
 		"extensions/ringquantum/buildvc.bat",

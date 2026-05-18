@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="images/logo.svg" alt="RingQuantum Logo" width="180" height="180" />
+
 ![Version](https://img.shields.io/badge/version-5.0-blue.svg)
 ![Ring](https://img.shields.io/badge/Ring-1.25+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
@@ -267,6 +269,8 @@ next
 
 RingQuantum integrates three distinct engines into a unified optimization pipeline:
 
+![RingQuantum Three-Layer Architecture](images/three_layer_architecture.svg)
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Ring Application Layer                        │
@@ -282,6 +286,8 @@ RingQuantum integrates three distinct engines into a unified optimization pipeli
 ```
 
 ### Data Flow
+
+![Hybrid Solver Pipeline](images/hybrid_optimization_pipeline.svg)
 
 ```mermaid
 graph TD

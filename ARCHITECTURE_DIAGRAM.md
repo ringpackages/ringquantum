@@ -1,6 +1,11 @@
 # 🏗️ RingQuantum — Architecture Documentation
 
+<div align="center">
+  <img src="images/logo.svg" alt="RingQuantum Logo" width="160" height="160" />
+</div>
 ## System Overview
+
+![RingQuantum Three-Layer Architecture](images/three_layer_architecture.svg)
 
 RingQuantum is built as a **three-layer architecture** where each layer handles a specific concern:
 
@@ -124,6 +129,8 @@ typedef struct {
 
 ## Zero-Copy Memory Pipeline
 
+![Zero-Copy Memory Pipeline](images/zero_copy_pipeline.svg)
+
 The critical innovation is **shared pointer ownership** between Ring, C, and C++ layers:
 
 ```mermaid
@@ -157,6 +164,8 @@ sequenceDiagram
 ---
 
 ## VMC Training Pipeline (RBM)
+
+![VMC Training Pipeline](images/vmc_training_pipeline.svg)
 
 ```mermaid
 flowchart TD
@@ -259,6 +268,12 @@ graph TD
     style G fill:#FF9800,color:white
     style H fill:#FF9800,color:white
 ```
+
+## Hybrid Solver & Decision Pipeline
+
+![Hybrid Solver Pipeline](images/hybrid_optimization_pipeline.svg)
+
+The entire system integrates Yahoo Finance market data ingestion, AlQalam covariance preprocessing, and automatic routing to the optimal quantum/neural engine based on scale.
 
 ---
 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="820" viewBox="0 0 1000 820">
+<defs>
+  <linearGradient id="linearGradient1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0B111E"/><stop offset="100%" stop-color="#1A2234"/></linearGradient>
+  <pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="url(#linearGradient1)"/><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2D3748" stroke-width="1"/></pattern>
+  <filter id="shadow1" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="5" dy="5" stdDeviation="8" flood-color="#020617"/></filter>
+  <linearGradient id="linearGradient2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0D9488"/><stop offset="100%" stop-color="#115E59"/></linearGradient>
+  <linearGradient id="linearGradient3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4F46E5"/><stop offset="100%" stop-color="#3730A3"/></linearGradient>
+  <linearGradient id="linearGradient4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#BE185D"/><stop offset="100%" stop-color="#9D174D"/></linearGradient>
+  <linearGradient id="linearGradient5" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#1B2234"/><stop offset="100%" stop-color="#0B111E"/></linearGradient>
+  <linearGradient id="linearGradient6" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1E293B"/><stop offset="100%" stop-color="#334155"/></linearGradient>
+  <marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/></marker>
+</defs>
+  <rect x="0" y="0" width="1000" height="820" fill="url(#linearGradient1)"/>
+  <rect x="0" y="0" width="1000" height="820" fill="url(#grid1)" opacity="0.20"/>
+  <text x="500" y="45" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#F8FAFC">⚛️ RINGQUANTUM HYBRID NEURAL-QUANTUM ENGINE</text>
+  <text x="500" y="75" font-family="'Segoe UI', sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">Production-Grade Three-Layer Separation of Concerns &amp; Hardware Dispatcher</text>
+  <rect x="50" y="110" width="900" height="160" rx="12" ry="12" fill="url(#linearGradient2)" stroke="#0D9488" stroke-width="1.50" filter="url(#shadow1)"/>
+  <text x="70" y="140" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" fill="#CCFBF1">APPLICATION LAYER (Pure Ring Object-Oriented APIs &amp; Structs)</text>
+  <rect x="80" y="165" width="250" height="85" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#14B8A6" stroke-width="1"/>
+  <text x="205" y="195" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#2DD4BF">QuantumCircuit</text>
+  <text x="205" y="215" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">Exact Quantum States (ringquantum.ring)</text>
+  <text x="205" y="232" font-family="'Segoe UI', sans-serif" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">Universal Gate API: H, CNOT, MCX, ExpZ</text>
+  <rect x="375" y="165" width="250" height="85" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#14B8A6" stroke-width="1"/>
+  <text x="500" y="195" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#2DD4BF">NeuralQuantum</text>
+  <text x="500" y="215" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">NQS RBM Wavefunction (NeuralQuantum.ring)</text>
+  <text x="500" y="232" font-family="'Segoe UI', sans-serif" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">Variational Optimization &amp; Ising/Binary Maps</text>
+  <rect x="670" y="165" width="250" height="85" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#14B8A6" stroke-width="1"/>
+  <text x="795" y="195" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#2DD4BF">QuantumTransformer</text>
+  <text x="795" y="215" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">ANQS Attn Model (quantum_transformer.ring)</text>
+  <text x="795" y="232" font-family="'Segoe UI', sans-serif" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">Causal Masked Sampling &amp; TDVP Solver</text>
+  <rect x="50" y="320" width="900" height="275" rx="12" ry="12" fill="url(#linearGradient3)" stroke="#4F46E5" stroke-width="1.50" filter="url(#shadow1)"/>
+  <text x="70" y="350" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" fill="#E0E7FF">C KERNEL LAYER (Lock-Free Multi-Threaded Math Engine - ring_quantum.c)</text>
+  <rect x="80" y="375" width="250" height="175" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#6366F1" stroke-width="1"/>
+  <text x="205" y="400" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#818CF8">Statevector Engine</text>
+  <text x="205" y="430" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Interleaved Complex Memory Layout</text>
+  <text x="205" y="450" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Bitwise Gate XOR Indexing</text>
+  <text x="205" y="470" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Multi-Controlled Unitaries (MCU)</text>
+  <text x="205" y="490" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Exact Amplitudes [Re, Im]</text>
+  <text x="205" y="525" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#F43F5E">Exact limit: ≤ 25 Qubits</text>
+  <rect x="375" y="375" width="250" height="175" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#6366F1" stroke-width="1"/>
+  <text x="500" y="400" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#818CF8">NQS (RBM) Solver</text>
+  <text x="500" y="430" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Metropolis-Hastings MCMC Sampler</text>
+  <text x="500" y="450" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• In-Memory Spin Configurations</text>
+  <text x="500" y="470" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Z-score Advantage REINFORCE</text>
+  <text x="500" y="490" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Direct Visible Bias Constraints</text>
+  <text x="500" y="525" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#FB923C">Approx limit: ≤ 500 Qubits</text>
+  <rect x="670" y="375" width="250" height="175" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#6366F1" stroke-width="1"/>
+  <text x="795" y="400" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#818CF8">Transformer (ANQS)</text>
+  <text x="795" y="430" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Masked Complex Attention Heads</text>
+  <text x="795" y="450" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Exact Autoregressive Bernoulli</text>
+  <text x="795" y="470" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Thread-Local Lock-Free XorShift</text>
+  <text x="795" y="490" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#CBD5E1">• Parameter Jacobian Generation</text>
+  <text x="795" y="525" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#A855F7">Approx limit: ≤ 1000+ Qubits</text>
+  <rect x="80" y="560" width="840" height="22" rx="5" ry="5" fill="url(#linearGradient6)"/>
+  <text x="520" y="571" font-family="'Segoe UI', sans-serif" font-size="9.50" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#38BDF8">HARDWARE DISPATCH: OpenMP CPU Multi-Threading  |  OpenCL Mapped Buffers FP32 Turbo (GPU Shared Memory)</text>
+  <rect x="50" y="640" width="900" height="140" rx="12" ry="12" fill="url(#linearGradient4)" stroke="#DB2777" stroke-width="1.50" filter="url(#shadow1)"/>
+  <text x="70" y="670" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold" fill="#FCE7F3">EXTERNAL COOPERATIVE ENGINE DEPENDENCIES (Zero-Copy Pointer Interoperability)</text>
+  <rect x="80" y="695" width="250" height="70" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#EC4899" stroke-width="1"/>
+  <text x="205" y="720" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#F472B6">RingTensor (C)</text>
+  <text x="205" y="742" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">In-Place Adam Momentum &amp; Graph Ops</text>
+  <rect x="375" y="695" width="250" height="70" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#EC4899" stroke-width="1"/>
+  <text x="500" y="720" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#F472B6">AlQalam (C++)</text>
+  <text x="500" y="742" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">Matrix-Free Conjugate Gradient Solver</text>
+  <rect x="670" y="695" width="250" height="70" rx="8" ry="8" fill="url(#linearGradient5)" stroke="#EC4899" stroke-width="1"/>
+  <text x="795" y="720" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#F472B6">RingML (Ring)</text>
+  <text x="795" y="742" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#94A3B8">Orchestrated SGD Optimizer Controllers</text>
+  <line x1="205" y1="270" x2="205" y2="320" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+  <line x1="500" y1="270" x2="500" y2="320" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+  <line x1="795" y1="270" x2="795" y2="320" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+  <line x1="205" y1="595" x2="205" y2="640" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+  <line x1="500" y1="595" x2="500" y2="640" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+  <line x1="795" y1="595" x2="795" y2="640" fill="#000000" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow1)"/>
+</svg>
